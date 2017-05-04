@@ -1,0 +1,41 @@
+body {
+  background-color: #efefef;
+}
+
+.container {
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  font-family: Karla;
+  font-weight: bold;
+}
+
+.zooniverse-logo {
+  margin-bottom: 10%;
+  width: 148px;
+  height: 136px;
+}
+
+.title {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #5c5c5c;
+  letter-spacing: normal;
+}
+
+.maintenance-msg {
+  font-size: 45px;
+  line-height: 1.16;
+  color: #5c5c5c;
+}
+
+.old-weather-whaling-text {
+  font-size: 14px;
+}
+
+.link-text {
+  color: #0c616f;
+  text-decoration: none;
+}
