@@ -1,28 +1,32 @@
 body {
   background-color: #efefef;
+  background-image: url('img/shape.svg');
+  background-repeat: no-repeat;
 }
 
 .container {
-  position: absolute;
-  width: 50%;
-  top: 30%;
-  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.content {
   text-align: center;
-  font-family: Karla;
-  font-weight: bold;
+  font: 400 16px/1.5 Karla, sans-serif;
 }
 
 .zooniverse-logo {
-  margin-bottom: 10%;
   width: 148px;
   height: 136px;
 }
 
 .title {
+  margin-top: 10%;
   font-size: 16px;
   letter-spacing: 2px;
   color: #5c5c5c;
   letter-spacing: normal;
+  text-transform: uppercase;
 }
 
 .maintenance-msg {
@@ -38,4 +42,12 @@ body {
 .link-text {
   color: #0c616f;
   text-decoration: none;
+}
+
+a.link-text:hover {
+  color: #00979d;
+}
+
+a.link-text:focus {
+  color: #00979d;
 }
