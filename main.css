@@ -2,17 +2,17 @@ body {
   background-color: #efefef;
   background-image: url('img/shape.svg');
   background-repeat: no-repeat;
-}
-
-.container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
 
 .content {
   text-align: center;
   font: 400 16px/1.5 Karla, sans-serif;
+  margin: 3vw;
 }
 
 .zooniverse-logo {
