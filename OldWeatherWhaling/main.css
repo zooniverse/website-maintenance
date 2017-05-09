@@ -1,3 +1,7 @@
+html {
+  font: 400 16px/1.5 Karla, sans-serif;
+}
+
 body {
   background-color: #efefef;
   background-image: url('img/shape.svg');
@@ -11,7 +15,6 @@ body {
 
 .content {
   text-align: center;
-  font: 400 16px/1.5 Karla, sans-serif;
   margin: 1em 3vw;
 }
 
@@ -22,7 +25,7 @@ body {
 
 .title {
   margin-top: 10%;
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: 2px;
   color: #5c5c5c;
   letter-spacing: normal;
@@ -30,13 +33,13 @@ body {
 }
 
 .maintenance-msg {
-  font-size: 45px;
+  font-size: 2.8em;
   line-height: 1.16;
   color: #5c5c5c;
 }
 
 .old-weather-whaling-text {
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 .link-text {
